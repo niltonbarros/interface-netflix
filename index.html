@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.css">
+    
+    <!-- responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!-- owl css - classe do carrossel-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>Meia-Noite</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="base">
+                <div class="logo">
+                    <img src="img/logo.png" alt="" class="sr">
+                </div>
+                <div class="menus">
+                    <nav>
+                        <a href="#">Inicio</a>
+                        <a href="#">Séries</a>
+                        <a href="#">Filmes</a>
+                        <a href="#">Documentários</a>
+                    </nav>
+                </div>
+                <div class="divBusca">
+                    <input type="text" id="txtBusca" placeholder="Buscar"/>
+                    <img src="img/busca.png" id="btnBusca" alt="Buscar"/>
+                </div> 
+            </div>        
+        </div>
+    </header>
+
+    <!-- Bloco onde fica o destaque do filme -->
+    <main>
+        <div class="filme-principal">
+            <div class="container"> <!-- Classe Wrapper | Classes que são envelopadas tratando todos os elementos-->
+                <h3 class="titulo">GRIMM</h3>
+                <p class="descricao">O detetive Nick Burkhart (David Giuntoli) de Portland, descobre que é descendente de uma antiga linhagem , cuja missão é manter o equilibrio entre a humanidade e as criaturas mitológicas.</p>
+                <div class="botoes">
+                    <button role="button" class="botao"><i class="fas fa-play"></i> Assistir Agora</button>
+                    <button role="button" class="botao"><i class="fas fa-info-circle"></i>Mais Informações</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <div class="carrossel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img class="box-filme" src="img/invocacaodomal-1.jpg" alt="" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/invocacaodomal-2.jpg" alt="" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/sobrenatural.jpg" alt="" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/afreira.jpg" alt="" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/osOriginais.jpg" alt="" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/sabrina.jpg" alt="" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/annabelle-1.jpg" alt="" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/annabelle-2.jpg" alt="" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/annabelle-3.jpg" alt="" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/vanhelsing.jpg" alt="" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/diariovampiro.jpg" alt="" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/Grimm-02.jpg" alt="" srcset=""></div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Java Script dos botões Assistir Agora | Mais informações -->
+    <script src="https://kit.fontawesome.com/2a4d680322.js" crossorigin="anonymous"></script>
+    
+    <!-- owl javascript - carrossel-->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/setup.js"></script>
+    
+    <!--<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>-->
+</body>
+</html>
+
+    <!-- Informações adicioanis -->
+    <!-- Para fazer Carrossel das imagens usar o: https://owlcarousel2.github.io/OwlCarousel2/ -->
